@@ -1,18 +1,112 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Concessionária Veiga de Almeida</title>
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <header>
-        <nav class="barraNav">
-
-        </nav>
-        
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <h1>Veiga de Almeida</h1>
+                <p>Carros confiáveis, atendimento transparente</p>
+            </div>
+            <nav class="navbar">
+                <a href="#home">Início</a>
+                <a href="#destaques">Destaques</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
     </header>
 
+    <section id="home" class="hero banner">
+        <div class="container hero-content">
+            <div>
+                <span class="eyebrow">Seja bem-vindo</span>
+                <h2>A sua próxima experiência ao volante começa aqui</h2>
+                <p>Conheça ofertas especiais em veículos novos e seminovos com financiamento facilitado e garantia de procedência.</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#destaques">Ver ofertas</a>
+                    <a class="btn btn-secondary" href="#contato">Agendar visita</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-card">
+                    <p>Confira nossos modelos</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <main>
+        <section id="destaques" class="section section-destaques">
+            <div class="container">
+                <h2>Destaques da semana</h2>
+                <div class="cards-grid">
+                    <article class="card">
+                        <h3>Honda Civic 2023</h3>
+                        <p>Conforto, tecnologia e desempenho para o seu dia a dia.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Jeep Compass 2022</h3>
+                        <p>Espaço, segurança e presença de estrada para toda a família.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Gol 1.0 Trend</h3>
+                        <p>Economia e praticidade para quem busca um seminovo impecável.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
 
+        <section id="sobre" class="section section-sobre">
+            <div class="container split">
+                <div>
+                    <h2>Sobre a concessionária</h2>
+                    <p>Somos a Veiga de Almeida, uma concessionária com foco em transparência, qualidade e atendimento personalizado. Oferecemos opções de veículos novos e seminovos com avaliação prévia e suporte completo no financiamento.</p>
+                    <ul>
+                        <li>Veículos revisados e garantidos</li>
+                        <li>Financiamento e consórcio</li>
+                        <li>Atendimento pós-venda</li>
+                    </ul>
+                </div>
+                <div class="feature-box">
+                    <h3>Por que escolher a gente?</h3>
+                    <p>Atendimento humano, propostas claras e uma seleção exclusiva de carros que cabem no seu orçamento.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section section-contato">
+            <div class="container contato-grid">
+                <div>
+                    <h2>Fale conosco</h2>
+                    <p>Estamos prontos para ajudar você a encontrar o carro ideal. Visite nossa loja ou entre em contato pelo formulário.</p>
+                    <p><strong>Telefone:</strong> (21) 99999-9999</p>
+                    <p><strong>E-mail:</strong> contato@veigadealmeida.com</p>
+                    <p><strong>Endereço:</strong> Rua das Flores, 123 - Rio de Janeiro, RJ</p>
+                </div>
+                <form class="contato-form">
+                    <label for="nome">Nome</label>
+                    <input id="nome" type="text" placeholder="Seu nome" required>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="Seu email" required>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" rows="5" placeholder="Como podemos ajudar?" required></textarea>
+                    <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Concessionária Veiga de Almeida. Todos os direitos reservados.</p>
+            <p>Confiança, qualidade e suporte em cada etapa.</p>
+        </div>
+    </footer>
 </body>
 </html>
